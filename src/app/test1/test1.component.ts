@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './test1.component.scss'
 })
 export class Test1Component {
+  title:string = 'Test1Component works!';
   constructor() {
     console.log('Test1Component initialized');
   }
